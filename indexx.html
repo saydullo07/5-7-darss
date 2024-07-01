@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-dars</title>
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registratsiya</h1>
+        <form id="cardForm">
+            <div class="block">
+                <div>
+                    <label for="cardName">Ismingiz:</label> <br>
+                    <input type="text" id="Name" name="Name" required placeholder="ism"> 
+                </div>
+                <div>
+                    <label for="Familya">Familiyangiz:</label> <br>
+                    <input type="text" id="Familya" name="Familya" required placeholder="familya">
+                </div>
+                <div>
+                    <label for="expiryDate">yosh:</label> <br>
+                    <input type="text" id="Date" name="Date" placeholder="yosh" required>
+                </div>
+                <button class="buttonn" type="submit">Jo'natish</button>
+            </div>
+        </form>
+        <div id="cardDisplay"></div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
